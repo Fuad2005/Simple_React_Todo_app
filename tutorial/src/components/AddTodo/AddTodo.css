@@ -1,0 +1,14 @@
+.add-todo {
+    display: grid;
+    grid-template-columns: auto auto 40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.add-todo input {
+    height: 30px;
+}
+
+.add-todo button {
+    cursor: pointer;
+}

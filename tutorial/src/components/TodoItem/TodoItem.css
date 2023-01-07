@@ -1,0 +1,17 @@
+.todo-item {
+    width: 100%;
+    display: flex;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.todo-index {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-title {
+    font-weight: bold;
+}
