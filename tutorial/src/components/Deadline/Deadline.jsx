@@ -14,18 +14,18 @@ function Deadline(props) {
     // }, [hourCount])
     
     const incDays = () => {
-        setDayCount(dayCount+1)
+        setDayCount((prevState) => prevState + 1)
     }
 
     const decDays = () => {
-        setDayCount(dayCount-1)
+        setDayCount((prevState) => prevState - 1)
     }
     const incHours = () => {
-        setHourCount(hourCount+1)
+        setHourCount((prevState) => prevState + 1)
     }
 
     const decHours = () => {
-        setHourCount(hourCount-1)
+        setHourCount((prevState) => prevState - 1)
     }
     
     return(

@@ -15,3 +15,11 @@
 .todo-title {
     font-weight: bold;
 }
+
+.todo-duration {
+    margin-left: auto;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
